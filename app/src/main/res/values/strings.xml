@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EMASDemo</string>
+    <string name="test">test</string>
+    <string name="ttid">600002222033</string>
+    <string name="bundle_title">
+        "业务Bundle范例"
+    </string>
+    <string name="sdks_title">
+        "以下是集成在主Dex基础SDK入口：\n"
+        "1、高可用SDK:提供统一的、轻量的、全方位的端上高可用运维SDK，具体内包括(全方位性能度量,crash、abort监控,crash、abort根因定位,内存泄露监控,卡顿监控,远程日志分析,远程调试,远程profiling,远程内存分析\n"
+        "2、DEXPATCH:提供基于ATLAS的快速修复线上问题能力\n"
+        "3、动态部署: 提供用户无感知的应用升级能力\n"
+        "4、WEEX:移动端动态化渲染的解决方案，提供业务快速迭代发布的能力\n"
+    </string>
+    <string name="aaa">patchString66</string>
+</resources>

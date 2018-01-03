@@ -1,0 +1,122 @@
+{
+  "exclude": [
+	  {
+		  "artifact": "tnet-jni",
+		  "group": "com.taobao.android"
+	  },
+	  {
+		  "artifact": "tlog_adapter",
+		  "group": "com.taobao.android"
+	  }
+  ],
+  "main": [
+	  {
+		  "artifact": "fastjson",
+		  "type": "jar",
+		  "version": "1.1.45.android",
+		  "group": "com.alibaba"
+	  },
+	  {
+		  "artifact": "atlasupdate",
+		  "type": "aar",
+		  "version": "1.1.4.14",
+		  "group": "com.taobao.android"
+	  },
+	  {
+		  "artifact": "atlas_core",
+		  "type": "aar",
+		  "version": "5.0.7.55",
+		  "group": "com.taobao.android"
+	  },
+	  {
+		  "artifact": "appcompat-v7",
+		  "type": "aar",
+		  "version": "26.1.0",
+		  "group": "com.android.support"
+	  },
+	  {
+		  "artifact": "FirstBundle",
+		  "type": "awb",
+		  "version": "2.0.1-emas-SNAPSHOT",
+		  "group": "com.taobao.android"
+	  },
+
+	  {
+		  "artifact": "mtopsdk_allinone",
+		  "type": "jar",
+		  "version": "3.0.4.7-proguard",
+		  "group": "com.taobao.android"
+	  },
+
+	  {
+		  "artifact": "networksdk",
+		  "type": "jar",
+		  "version": "3.1.4.12-open",
+		  "group": "com.taobao.android"
+	  },
+
+	  {
+		  "artifact": "tnet4android",
+		  "type": "aar",
+		  "version": "3.1.14.1-SNAPSHOT",
+		  "group": "com.taobao.android"
+	  },
+
+	  {
+		  "artifact": "open-update-aar",
+		  "type": "aar",
+		  "version": "5.6.5-emax-SNAPSHOT",
+		  "group": "com.taobao.android"
+	  },
+
+	  {
+		  "artifact": "accs_sdk_taobao",
+		  "type": "jar",
+		  "version": "3.2.0.1-open",
+		  "group": "com.taobao.android"
+	  },
+
+	  {
+		  "artifact": "utdid4all",
+		  "type": "jar",
+		  "version": "1.1.5.3",
+		  "group": "com.taobao.android"
+	  },
+
+	  {
+		  "artifact": "ut-analytics",
+		  "type": "aar",
+		  "version": "1.0.0-ha.3",
+		  "group": "com.taobao.android"
+	  },
+
+	  {
+		  "artifact": "alihatbadapter",
+		  "type": "aar",
+		  "version": "1.0.0.29",
+		  "group": "com.alibaba.ha"
+	  },
+
+	  {
+		  "artifact": "tlog_uploader",
+		  "type": "aar",
+		  "version": "1.0.5-oss",
+		  "group": "com.taobao.android"
+	  },
+
+	  {
+		  "artifact": "tlog_message",
+		  "type": "aar",
+		  "version": "1.0.5-rpc",
+		  "group": "com.taobao.android"
+	  },
+
+	  {
+		  "artifact": "weex",
+		  "type": "aar",
+		  "version": "1.0.0.5-SNAPSHOT",
+		  "group": "com.taobao.emas.weex"
+	  }
+  ],
+  "other": []
+}

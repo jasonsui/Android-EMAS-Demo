@@ -1,0 +1,32 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        mavenLocal()
+        maven {url "http://mvnrepo.alibaba-inc.com/mvn/repository"}
+        //maven {url 'http://mvnrepo.alibaba-inc.com/nexus/content/repositories' }
+        //maven {url "http://maven.aliyun.com/nexus/content/groups/public"}
+        //maven {url "http://10.125.65.140:8081/nexus/content/repositories/"}
+        jcenter()
+    }
+    dependencies {
+        classpath "com.taobao.android.gradle:emas-plugin:1.4-SNAPSHOT"
+    }
+}
+
+allprojects {
+    repositories {
+        mavenLocal()
+        maven {url "http://mvnrepo.alibaba-inc.com/mvn/repository"}
+        //maven {url 'http://mvnrepo.alibaba-inc.com/nexus/content/repositories' }
+        //maven {url "http://maven.aliyun.com/nexus/content/groups/public"}
+        maven {url "http://10.125.65.140:8081/nexus/content/repositories/"}
+        maven {url "http://10.125.65.140:8081/nexus/content/repositories/release"}
+        maven {url "http://10.125.65.140:8081/nexus/content/repositories/snapshots"}
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
